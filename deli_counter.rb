@@ -14,3 +14,11 @@ def line(deli_line)
         puts katz_line
     end
 end
+
+def now_serving(deli_line)
+  if deli_line.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{deli_line.shift}."
+  end
+end
