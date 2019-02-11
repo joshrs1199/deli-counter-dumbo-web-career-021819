@@ -11,4 +11,7 @@ def line(deli_line)
     Katz_line = "The line is currently:"
     deli_line.each_with_index do |name,index|
       Katz_line += "#{index + 1}. #{name}"
+    end
+   puts Katz_line
+ end
 end
